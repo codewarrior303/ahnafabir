@@ -1,17 +1,21 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @license
+ * Copyright (c) 2026 Ahnaf Shahriar Abir. All rights reserved.
+ * Licensed under the MIT License.
+ * Project: Portfolio
+ * Author: Ahnaf Shahriar Abir (codewarrior303)
+ * Website: https://codewarrior303.github.io/abir/
+ */
+
 const nextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
-  reactCompiler: true,
-  turbopack: {
-    rules: {
-      "*.css": {
-        loaders: ["@tailwindcss/turbopack"],
-        as: "*.css",
-      },
-    },
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
+    minimumCacheTTL: 60 * 60 * 24 * 30,
   },
+  compress: true,
+  poweredByHeader: false,
+  reactStrictMode: true,
 };
 
 export default nextConfig;
