@@ -41,18 +41,6 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
     }
   }, []);
 
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'p') {
-        if (window.location.pathname !== '/resume') {
-          e.preventDefault();
-          window.location.href = '/resume?print=true';
-        }
-      }
-    };
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, []);
 
   const handleExitComplete = useCallback(() => {
     setIsLoading(false);

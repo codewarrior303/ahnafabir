@@ -69,7 +69,7 @@ export const STACK_SECTIONS: StackCategory[] = [
     technologies: [
       { name: 'Postman', category: 'tools', icon: '/tech/postman.svg' },
       { name: 'Figma', category: 'tools', icon: '/tech/figma.svg' },
-      { name: 'npm', category: 'tools', icon: '/tech/npm.svg' },
+      { name: 'Penpot', category: 'tools', icon: '/tech/penpot.svg' },
     ],
   },
 ];

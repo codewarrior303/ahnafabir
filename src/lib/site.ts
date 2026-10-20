@@ -14,7 +14,6 @@ export const site = {
     'Full Stack Developer',
     'React & Next.js Engineer',
     'Backend Enthusiast',
-    'CSE Student @ SEU',
   ],
 } as const;
 
