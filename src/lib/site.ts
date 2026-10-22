@@ -22,8 +22,8 @@ export type SocialKey = 'github' | 'linkedin' | 'instagram' | 'source';
 export const socials: Record<SocialKey, { label: string; href: string }> = {
   github: { label: 'GitHub', href: 'https://github.com/codewarrior303' },
   linkedin: { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ahnaf-shahriar-abir/' },
-  instagram: { label: 'Instagram', href: 'https://instagram.com/' },
-  source: { label: 'Source Code', href: 'https://github.com/codewarrior303' },
+  instagram: { label: 'Instagram', href: 'https://www.instagram.com/codewarrior_ahnaf/' },
+  source: { label: 'Source Code', href: 'https://github.com/codewarrior303/ahnafabir' },
 };
 
 export const socialList: Array<{ label: string; href: string }> = [

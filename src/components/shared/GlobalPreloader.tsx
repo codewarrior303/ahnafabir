@@ -7,7 +7,6 @@ export const preloaderWords = [
   'স্বাগতম',
   'السلام عليكم',
   'Hola',
-  'Code. Debug. Build.',
   'Welcome',
 ];
 
