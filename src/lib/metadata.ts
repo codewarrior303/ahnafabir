@@ -31,6 +31,9 @@ export const siteMetadata: Metadata = {
   ],
   creator: site.name,
   metadataBase: new URL(site.url),
+  verification: {
+    google: "cwxA_7eQGZh2sP-o-oefpqBvNhe90rd5ts3z-twR_KQ",
+  },
   alternates: {
     canonical: "./",
   },
